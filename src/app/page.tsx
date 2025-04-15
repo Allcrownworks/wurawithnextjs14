@@ -49,7 +49,7 @@ export default function Home() {
 
   const handleLoginClick = (e: React.FormEvent) => {
     e.preventDefault();
-    router.push("/emailVerification");
+    router.push("/emailverification");
   };
   // ------------------right side functons-----------
   const [currentIndex, setCurrentIndex] = useState(0);
