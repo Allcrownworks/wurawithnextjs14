@@ -610,8 +610,11 @@ import type React from "react"
 
 import { useEffect, useRef, useState } from "react"
 import { Home, ZoomIn, ZoomOut, Printer, Menu, SearchIcon } from "lucide-react"
+ // eslint-disable-next-line @typescript-eslint/no-explicit-any
 import Chart from "chart.js/auto"
+ // eslint-disable-next-line @typescript-eslint/no-explicit-any
 import zoomPlugin from "chartjs-plugin-zoom"
+ // eslint-disable-next-line @typescript-eslint/no-explicit-any
 import { Chart as ChartJS, registerables } from "chart.js"
 
 // Register Chart.js components
