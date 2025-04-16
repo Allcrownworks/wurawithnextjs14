@@ -194,7 +194,7 @@ export default function WorldMap() {
 
       {/* Map Container */}
       <div className="overflow-hidden h-[293px] ">
- 
+      {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
         <div ref={mapRef}>
           <ComposableMap
             projection="geoMercator"
