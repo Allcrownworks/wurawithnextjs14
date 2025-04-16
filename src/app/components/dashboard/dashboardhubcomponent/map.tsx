@@ -14,7 +14,7 @@ type GeographyProps = {
     name: string;
   };
    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  geometry: any;
+  geometry: unknown;
 };  
 
 const populationData: CountryData = {
