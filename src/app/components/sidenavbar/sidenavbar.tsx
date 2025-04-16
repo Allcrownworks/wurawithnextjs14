@@ -10,7 +10,7 @@ import { PiHandshake } from "react-icons/pi";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import Link from "next/link";
-import profile from "../SideNavbar/profile_small.jpg";
+import profile from "./profile_small.jpg";
 import { usePathname } from "next/navigation";
 import { FaChurch } from "react-icons/fa";
 import Image from "next/image";

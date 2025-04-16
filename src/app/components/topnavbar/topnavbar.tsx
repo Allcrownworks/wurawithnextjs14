@@ -2,7 +2,7 @@
 import Image from "next/image";
 // import { Mail, Bell, LogOut } from "lucide-react"; // Import Lucide icons
 import Link from "next/link";
-import WURA from "../TopNavbar/WURA .svg"; // Import the SVG logo
+import WURA from "./WURA .svg"; // Import the SVG logo
 import { Bell, LogOut, Mail } from "lucide-react";
 interface TopNavbarProps {
   toggleSidebar: () => void;
