@@ -24,7 +24,7 @@ export function OrdersProgressBar() {
 
     const interval = setInterval(() => {
       current += increment;
-      setValue((prev) => Math.min(Math.floor(current), targetValue)); // Ensure it doesn't exceed the target
+      setValue(() => Math.min(Math.floor(current), targetValue)); // Ensure it doesn't exceed the target
       if (current >= targetValue) clearInterval(interval);
     }, 16); // Run every 16ms (~60fps)
   };

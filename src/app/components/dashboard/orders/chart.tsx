@@ -401,7 +401,7 @@ export default function DataChart() {
   }
 
   // Custom tooltip component
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  const CustomTooltip = ({ active, payload, label }: { active?: boolean; payload?: any[]; label?: string }) => {
     if (active && payload && payload.length) {
       return (
         <div className="bg-white p-2 border border-gray-200 shadow-md rounded-md">

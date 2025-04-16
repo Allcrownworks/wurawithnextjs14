@@ -10,7 +10,7 @@ import Transactionworldwide from "../dashboardhubcomponent/transactionworldwide"
 
 export function DashboardHub() {
   // Initialize sidebar as collapsed (false) by default
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  // const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [toggle, setToggle] = useState(false);
   const [usertoggle, setUserToggle] = useState(false);
   const [todotoggle, setTodoToggle] = useState(false);

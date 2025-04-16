@@ -194,11 +194,11 @@ export default function WorldMap() {
       {/* Map Container */}
       <div className="overflow-hidden h-[293px] ">
  
-        <ComposableMap
-          projection="geoMercator"
-          projectionConfig={{ scale: 150, center: [0, 20] }}
-          ref={mapRef}
-        >
+        <div ref={mapRef}>
+          <ComposableMap
+            projection="geoMercator"
+            projectionConfig={{ scale: 150, center: [0, 20] }}
+          >
           <ZoomableGroup
             center={position.coordinates}
             zoom={position.zoom}
@@ -248,7 +248,8 @@ export default function WorldMap() {
     })}
     </Geographies>
           </ZoomableGroup>
-        </ComposableMap>
+          </ComposableMap>
+        </div>
       </div>
 
       {/* Tooltip */}
